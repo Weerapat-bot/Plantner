@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    background: #E7FBE8;
+}
+
+.top-bar {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.top-bar p {
+    float: left;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+.top-bar img {
+    float: left;
+    margin-left:  30px;
+}
+
+.top-bar a {
+    float: right;
+    display: block;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+.top-bar a:hover {
+    color: #3CDE56;
+}
+
+.top-bar #profile {
+    background-color: #3CDE56;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 12px 12px;
+    margin-top: 14px;
+}
+
+.top-bar #log-out {
+    background-color: #3CDE56;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 12px 12px;
+    margin-top: 14px;
+}
+
+.top-bar #log-out:hover {
+    color: #ffffff;
+    background-color: #248b35;
+}
+
+.top-bar #profile:hover {
+    color: #ffffff;
+    background-color: #248b35;
+}
+
+h1 {
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+h2 {
+    margin-left: 10%;
+}
+
+.menuinfo {
+    margin-right: 10%;
+}
+
+
+.menubox {
+    background: #fdfdfd;
+    margin-left: 20%;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+#yes-button {
+    height: 35px;
+    background: #36B033;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+    transition: transform 0.3s ease;
+    margin-left: 20%;
+}
+
+.no-button {
+    height: 35px;
+    background: #a4a4a4;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+    transition: transform 0.3s ease; 
+    margin-left: 2%;
+}
+
+.no-button:hover {
+    background: #686868;
+    transform: scale(1.1);
+}
+
+#yes-button:hover {
+    background-color: #248b35;
+    transform: scale(1.1);
+}
